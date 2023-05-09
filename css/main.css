@@ -1,0 +1,54 @@
+
+
+.left-child {
+  position:relative;
+  width:100%;
+  font-style: normal;
+  font-weight: 200;
+  text-align: center;
+  line-height: 0;
+  margin:0;
+  line-height: 50px;
+}
+
+.my-button {
+  border-color:none;
+  color: white;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'cheri';
+  src: url('cheri.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url('inter.ttf') format('truetype');
+}
+
+.image-container {
+  position: relative;
+  height: 100%;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-container img.active {
+  transition-delay : 0;
+}
