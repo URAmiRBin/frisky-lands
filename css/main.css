@@ -25,12 +25,12 @@
 
 @font-face {
   font-family: 'cheri';
-  src: url('cheri.ttf') format('truetype');
+  src: url('/CHERI.TTF') format('truetype');
 }
 
 @font-face {
   font-family: 'inter';
-  src: url('inter.ttf') format('truetype');
+  src: url('/inter.ttf') format('truetype');
 }
 
 .image-container {
