@@ -52,3 +52,29 @@
 .image-container img.active {
   transition-delay : 0;
 }
+
+@media screen and (max-width: 600px) {
+  .image-div-top {
+    visibility: visible !important;
+  }
+
+  .image-div-bottom {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .content {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .image-div-top {
+    visibility: hidden !important;
+    display: none !important;
+  }
+
+  .image-div-bottom {
+    visibility: visible !important;
+  }
+}
