@@ -1,4 +1,6 @@
-
+body {
+  background-color: black;
+}
 
 .left-child {
   position:relative;
@@ -65,6 +67,11 @@
 
   .content {
     width: 100% !important;
+  }
+
+  .footer {
+    visibility: hidden !important;
+    display: none !important;
   }
 }
 
